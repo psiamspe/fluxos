@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '~> 3.2'
+ruby file: '.ruby-version'
 
 gem 'jekyll', '~> 4.4'
 gem 'just-the-docs', '~> 0.10'
-gem 'fiddle'
+gem 'logger'
 
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'

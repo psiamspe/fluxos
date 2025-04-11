@@ -3,9 +3,9 @@ description: Uma lista de fluxos de assistência para o PS do Iamspe
 url: https://psiamspe.github.io/fluxos/
 
 theme: just-the-docs
+# Theme configurations
 search_enabled: true
 favicon_ico: /assets/logo.ico
-
 callouts:
   danger:
     title: Alerta
@@ -20,15 +20,16 @@ callouts:
     title: Observação
     color: blue
 
+# Jekyll plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-spaceship
-
+# jekyll-feed configurations
 feed:
   icon: /assets/logo.png
   logo: /assets/logo_2x1.png
-
+# jekyll-spaceship configurations
 jekyll-spaceship:
   processors:
     - table-processor
@@ -65,3 +66,21 @@ jekyll-spaceship:
       frameborder: 0
       style: 'outline: none;'
       allow: 'encrypted-media; picture-in-picture'
+
+# Exclusions
+exclude:
+  - .github/
+  - .jekyll-cache/
+  - .ruby-lsp/
+  - .sass-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/
+  - .gitattributes
+  - .gitignore
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - THEME_LICENSE.txt
