@@ -1,7 +1,19 @@
 source 'https://rubygems.org'
+ruby '~> 3.2'
 
-gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+gem 'jekyll', '~> 4.4'
+gem 'just-the-docs', '~> 0.10'
+gem 'fiddle'
 
-gem "just-the-docs", "0.10.1" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+group :jekyll_plugins do
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-seo-tag', '~> 2.8'
+  gem 'jekyll-spaceship', '~> 0.10.2'
+end
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem 'tzinfo', '>= 1', '< 3'
+  gem 'tzinfo-data'
+end
+gem 'wdm', '~> 0.1', :platforms => [:mingw, :x64_mingw, :mswin]
+gem 'http_parser.rb', '~> 0.6.0', :platforms => [:jruby]
