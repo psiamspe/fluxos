@@ -30,7 +30,7 @@ flowchart TD
 
 **SEMPRE** usar a prescrição-padrão de dengue, na suspeita ou em casos já confirmados!
 
-![Prescrição padrão para Dengue no MV]({{ /assets/dengue-prescricao-padrao.jpg | relative_url }})
+![Prescrição padrão para Dengue no MV]({{ "/assets/dengue-prescricao-padrao.jpg" | relative_url }})
 
 ## Interconsultas MI
 
@@ -46,4 +46,4 @@ A **internação** de casos de Dengue **não precisa de autorização prévia da
 
 Para retorno, orientar paciente procurar **Guichê 1** da Recepção com documentos de retorno preenchidos, assinados e carimbados!
 
-![Exames para retorno]({{ /assets/dengue-retorno.jpg | relative_url }})
+![Exames para retorno]({{ "/assets/dengue-retorno.jpg" | relative_url }})
