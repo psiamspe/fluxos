@@ -20,7 +20,7 @@ callouts:
   success:
     title: Nota
     color: green
-  link:
+  info:
     title: Observação
     color: blue
 
