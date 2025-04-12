@@ -1,7 +1,7 @@
 title: Fluxos PS Iamspe
 description: Uma lista de fluxos de assistência para o PS do Iamspe
 url: https://psiamspe.github.io/
-base_url: fluxos/
+baseurl: fluxos/
 
 theme: just-the-docs
 # Theme configurations
