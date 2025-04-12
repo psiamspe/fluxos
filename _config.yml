@@ -6,6 +6,9 @@ theme: just-the-docs
 # Theme configurations
 search_enabled: true
 favicon_ico: /assets/logo.ico
+defaults:
+  - values:
+      layout: default
 callouts:
   danger:
     title: Alerta
