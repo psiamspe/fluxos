@@ -18,3 +18,5 @@ flowchart TD
   Externa_Ori --> Externa_Ramais["**Gestão Pacientes**<br>6019 / 8122"]
   Externa_Ori --> Externa_Fluxo["Seguir fluxo de **Presc Interna**"]
 ```
+
+Resumo da ópera: não fazer noripurum pelo PS da Clínica...
