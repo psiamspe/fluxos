@@ -1,3 +1,3 @@
-# Fluxos PS Iamspe
+# Fluxos Assistenciais PS Iamspe
 
-![Logo](assets/logo.png)
+Uma lista de fluxos de assistência para o PS do Iamspe.

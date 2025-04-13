@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: Fluxos Assistenciais PS Iamspe
+message: >-
+  Se você utilizar estes documentos, por favor citar usando
+  os metadados neste arquivo.
+authors:
+  - given-names: Igor
+    family-names: Padoim
+    email: igorpadoim@gmail.com
+    orcid: 'https://orcid.org/0000-0003-1506-1028'
+repository-code: 'https://github.com/psiamspe/fluxos'
+url: 'https://psiamspe.github.io/fluxos/'
+abstract: Uma lista de fluxos de assistência para o PS do Iamspe.
+keywords:
+  - flowchart
+  - standard operational procedure
+  - sop
+license: CC-BY-NC-ND-4.0
