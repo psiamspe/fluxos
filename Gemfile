@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby file: '.ruby-version'
 
 gem 'jekyll', '~> 4.4'
+gem 'sass-embedded', '1.78.0'
 gem 'just-the-docs', '~> 0.10'
 gem 'logger'
 

@@ -23,6 +23,8 @@ callouts:
   info:
     title: Observação
     color: blue
+sass:
+  quiet_deps: true
 
 # Jekyll plugins
 plugins:
