@@ -2,6 +2,28 @@
 title: Fluxo de Atendimento
 parent: Clínica Médica
 nav_order: 1
+references:
+  foo:
+    doi: 10.1590/1413-81232025301.03722023
+  bar:
+    authors:
+      - Fatima Laher
+      - Linda-Gail Bekker
+      - Nigel Garrett
+      - Erica M Lazarus
+      - Glenda E Gray
+    title: Review of preventative HIV vaccine clinical trials in South Africa
+    journal: Arch Virol
+    publication: 2020 Nov
+    volume: 165
+    issue: 11
+    pages: 2439-2452
+  far:
+    organization: Ministério da Saúde
+    title: Manual de Manejo Clínico da Febre Amarela
+    publication: 2020
+  boo:
+    doi: 10.1136/archdischild-2016-310459
 ---
 
 # Fluxo de Atendimento
@@ -48,7 +70,4 @@ flowchart LR
 {: .warning }
 > Evitar re-reavaliações!
 >
-> 70-80%[1][2] dos diagnósticos definitivos podem ser feitos só com uma anamnese adequada &ndash; invista tempo nisso.
-
-[1]: Foo
-[2]: Bar
+> 70-80% dos diagnósticos definitivos podem ser feitos só com uma anamnese adequada &ndash; invista tempo nisso.

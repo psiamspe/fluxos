@@ -27,6 +27,10 @@ callouts:
 sass:
   quiet_deps: true
 
+# References configurations
+references:
+  style: Vancouver
+
 # Jekyll plugins
 plugins:
   - jekyll-feed
