@@ -48,6 +48,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-references (1.1.0)
+      jekyll (~> 4.4)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.8.0)
@@ -113,6 +115,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.4)
   jekyll-feed (~> 0.12)
+  jekyll-references (~> 1.1)
   jekyll-seo-tag (~> 2.8)
   jekyll-spaceship (~> 0.10.2)
   just-the-docs (~> 0.10)
@@ -126,4 +129,4 @@ RUBY VERSION
    ruby 3.3.5p100
 
 BUNDLED WITH
-   2.6.2
+   2.6.8
