@@ -70,4 +70,4 @@ flowchart LR
 {: .warning }
 > Evitar re-reavaliações!
 >
-> 70-80% dos diagnósticos definitivos podem ser feitos só com uma anamnese adequada &ndash; invista tempo nisso.
+> 70-80%{% cite boo %} dos diagnósticos definitivos podem ser feitos só com uma anamnese adequada &ndash; invista tempo nisso.
